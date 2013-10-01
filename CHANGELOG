@@ -3,6 +3,14 @@ VERSION 0  FIRST BETA
 =====================
 
    Version 0.9 - Beta release
+      01/10/2013 12:01  0.9.10  Move to YAML config
+         7c97bd0 Merge pull request #41 from jeanmonod/option-merge
+         73ad1e7 Merge pull request #42 from jeanmonod/yaml-config
+         f2b619e Auto create the CHANGELOG file if absent fix #40
+         0f4222f Change the init command to use yaml by default and adapt test
+         6793372 Convert the documentation from JSON to YML
+         872f336 Allow to override only options for branch specific
+         bd05cfb Accept YML as config syntax
       26/09/2013 23:51  0.9.9  Fix compatibility accross all symfony:console version
          387e342 Configure travis to build over all version of the symfony:console dependency
          b3a014b Put back a test removed by @bonndan by fix it by redirecting errors on the standard output
